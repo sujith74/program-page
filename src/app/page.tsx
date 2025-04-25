@@ -89,7 +89,7 @@ const testimonial = {
   quote: "Joyful Minds is doing a fantastic job in the field of education, our school children get to know so many things during this program",
   author: "Aditya Birla",
   designation: "Principal, Sun Elementary School",
-  avatar: "/images/testimonials/aditya.jpg"
+  avatar: "https://cdn.pixabay.com/photo/2019/05/15/01/13/men-4203903_1280.jpg"
 };
 
 export default function ImprovingHealth() {
@@ -257,10 +257,10 @@ export default function ImprovingHealth() {
                 height={120}
               />
             </Box>
-            <Typography variant="h6" className="text-gray-700 mb-4">
+            <Typography variant="h6" className="text-gray-700 !mb-4">
               No campaigns under this organization
             </Typography>
-            <Typography className="text-gray-500 mb-6">
+            <Typography className="text-gray-500 !mb-6">
               Create a campaign in just 3 steps
             </Typography>
             <Button 
@@ -289,11 +289,11 @@ export default function ImprovingHealth() {
       {/* Testimonials Section */}
       <Box className="bg-gray-50 py-16">
         <Container maxWidth="lg">
-          <Box className="text-center mb-10">
-            <Typography variant="h5" component="h3" className="text-gray-800 font-bold mb-2">
+          <Box className="text-center !mb-10">
+            <Typography variant="h5" component="h3" className="text-gray-800 font-bold !mb-2">
               What the world thinks about us
             </Typography>
-            <Divider className="w-16 mx-auto border-2 border-blue-500 mb-10" />
+            <Divider className="w-16 mx-auto border-2 border-blue-500 !mb-10" />
           </Box>
           
           <Box className="relative max-w-3xl mx-auto">
@@ -302,11 +302,11 @@ export default function ImprovingHealth() {
                 <Typography className="text-6xl text-blue-500">&quot;</Typography>
               </Box>
               <CardContent className="pt-6">
-                <Typography variant="body1" className="text-gray-700 mb-6 italic">
+                <Typography variant="body1" className="text-gray-700 !mb-6 italic">
                   {testimonial.quote}
                 </Typography>
                 <Box className="flex items-center">
-                  <Box className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
+                  <Box className="relative w-12 h-12 rounded-full overflow-hidden !mr-4">
                     <Image
                       src={testimonial.avatar}
                       alt={testimonial.author}
