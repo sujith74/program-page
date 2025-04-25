@@ -39,10 +39,10 @@ import {
 
 // Partners data
 const partners = [
-  { name: 'Stonehill', logo: 'https://cdn.pixabay.com/photo/2016/12/28/20/30/wedding-1937022_1280.jpg' },
-  { name: 'Partner 2', logo: 'https://cdn.pixabay.com/photo/2018/01/29/22/58/cube-3117511_1280.jpg' },
-  { name: 'Shiram', logo: 'https://cdn.pixabay.com/photo/2018/01/25/16/18/pinterest-3d-3106488_1280.jpg' },
-  { name: 'Partner 4', logo: 'https://cdn.pixabay.com/photo/2018/01/29/15/20/real-estate-3116341_1280.jpg' },
+  { name: 'Stonehill', logo: 'https://cdn.pixabay.com/photo/2016/03/25/22/57/mustang-1279782_1280.jpg' },
+  { name: 'Partner 2', logo: 'https://cdn.pixabay.com/photo/2012/11/07/07/42/facebook-65051_1280.jpg' },
+  { name: 'Shiram', logo: 'https://cdn.pixabay.com/photo/2022/09/01/16/34/apple-logo-7425833_1280.png' },
+  { name: 'Partner 4', logo: 'https://cdn.pixabay.com/photo/2015/12/16/06/03/pixabay-1095453_1280.jpg' },
 ];
 
 // Health initiatives with icons
@@ -275,7 +275,7 @@ export default function ImprovingHealth() {
       </Box>
 
       {/* Featured In Section */}
-      <Container maxWidth="lg" className="py-16">
+      {/* <Container maxWidth="lg" className="py-16">
         <Box className="text-center mb-10">
           <Typography variant="h5" component="h3" className="text-gray-800 font-bold mb-2">
             As Featured In
@@ -284,7 +284,7 @@ export default function ImprovingHealth() {
         </Box>
         
         
-      </Container>
+      </Container> */}
 
       {/* Testimonials Section */}
       <Box className="bg-gray-50 py-16">
